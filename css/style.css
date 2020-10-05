@@ -77,6 +77,14 @@ i {
   max-height: 70rem;
 }
 
+.banner .row
+.col-sm-8
+img
+.col-sm-4
+img {
+  padding-left: 2px;
+}
+
 .secondary-header {
   background-color: #b90302;
   padding: 1.2rem 0;
@@ -131,8 +139,13 @@ i {
 .left-navbar .item {
   padding: 3.5rem 5rem;
   border: 0.1rem solid #98999a;
+  border-bottom: none;
   font-size: 1.8rem;
   color: #98999a;
+}
+
+.left-navbar .item:last-child {
+  border-bottom: 0.1rem solid #98999a;
 }
 
 .left-navbar strong {

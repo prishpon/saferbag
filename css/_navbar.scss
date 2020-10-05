@@ -8,8 +8,12 @@
     .item{
         padding:3.5rem 5rem;
         border:0.1rem solid $primary-light;
+        border-bottom:none;
         font-size:1.8rem;
         color:$primary-light;
+           &:last-child{
+               border-bottom:0.1rem solid $primary-light;
+           }
     }
     strong{
         font-size:2.5rem;
